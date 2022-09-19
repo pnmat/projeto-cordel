@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+  --font1:'Passion One', cursive;
+  --font2:'Verdana, Geneva, Tahoma, sans-serif'
+}
+
+*{
+  margin: 0px;
+}
+
+html, body{
+  min-height: 100vh;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 10vw;
+  text-align: center;
+  font-family: var(--font1);
+  padding-top: 50px;
+}
+
+.nome{
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: 'Passion One', cursive;
+  padding-bottom: 50px;
+  
+}
+
+.nome a{
+  text-decoration: none;
+  color: white; 
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.texto{
+  line-height: 2em;
+  padding-bottom: 10px;
+  font-size: 3.5vw;
+  font-family: var(--font1);
+  padding: 10vh 0px 10vh 25px;
+}
+
+.cor{
+  color: white;  
+}
+
+.fundo{
+  background-color: rgba(51, 51, 51, 0.514);
+  padding: 8px;
+  display: inline-block;
+}
+
+#img01{
+  background-size: cover;
+  background: url('../imagens/background001.jpg') right center no-repeat fixed;
+}
+
+#img02{
+  background-size: cover;
+  background: url('../imagens/background002.jpg') center center no-repeat fixed;
+}
+
+p{
+  padding-bottom: 62px;
+}
+
+footer p{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 1.2em;
+}
